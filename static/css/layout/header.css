@@ -1,0 +1,80 @@
+.navbar {
+  overflow: hidden;
+  height: 50px;
+  padding: 5px;
+  background-color: #81B3D8;;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-logo {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  float: right;
+  margin: auto;
+  padding-right: 10px;
+  top: 50%;
+  height: 50px;
+  color: #000000;
+  font-size:35px;
+  cursor:pointer;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #7496A0;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.header-burokamerad {
+  position: absolute;
+  width: 151px;
+  height: 29px;
+  left: 884px;
+  top: 0px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}

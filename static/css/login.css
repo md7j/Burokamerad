@@ -1,0 +1,32 @@
+.form{
+    position:absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    width: 1009px;
+    height: 691px;
+    background: #D8E6E7;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+
+}
+
+.login-text{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.form input {
+    outline: 0;
+    background: #ffffff;
+    width: 50%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}

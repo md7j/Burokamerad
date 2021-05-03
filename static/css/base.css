@@ -1,0 +1,28 @@
+@import 'button.css';
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html,
+body{
+    margin: 0;
+    height: 100%;
+    background-color: #7496A0;;
+    font-family: "Roboto", sans-serif;
+}
+
+a { color: inherit;}
+
+.button {
+    padding: 10px 50px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#content {
+    padding: 40px;
+}

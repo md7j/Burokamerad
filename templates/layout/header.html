@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "../public/css/base.css">
+    <link rel = "stylesheet" href = "../public/css/layout/header.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#" class="header-logo">
+            <img src="../public/image/logo.png"/>
+        </a>
+        <div class="sidebar">
+            <span onclick="openNav()">&#9776;</span>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/login">Se connecter</a>
+            <a href="/faq">FAQ</a>
+            <a href="#">A propos</a>
+            <a href="#">Nous contacter</a>
+        </div>
+    </div>
+    <div class="header-burokamerad">
+        <p>Burokamerad</p>
+    </div>
+</body>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
